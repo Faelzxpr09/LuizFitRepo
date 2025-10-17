@@ -1,15 +1,15 @@
 package b;
 
-public class ClassePai {
+public class ClassePessoas {
 	private int idAt;
 	private String nomeAt;
 	private int idadeAt;
 	
-	public ClassePai(){
+	public ClassePessoas(){
 		
 	}
 	
-	public ClassePai(int idPar, String nomePar, int idadePar){
+	public ClassePessoas(int idPar, String nomePar, int idadePar){
 		this.idAt = idPar;
 		this.idadeAt= idadePar;
 		this.nomeAt= nomePar;
