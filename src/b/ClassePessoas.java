@@ -14,6 +14,8 @@ public class ClassePessoas {
 		this.idadeAt= idadePar;
 		this.nomeAt= nomePar;
 	}
+	public int calcularDesempenho() {
+        return 0;}
 	
 	public int getId(){
 		return idAt;}
