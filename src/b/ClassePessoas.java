@@ -33,4 +33,10 @@ public class ClassePessoas {
 	
 	public void setIdade(int Idade){
 		this.idadeAt= Idade;}
+	
+	public void exibirInfo(){
+		System.out.println("ID: " + idAt);
+        System.out.println("Nome: " + nomeAt);
+        System.out.println("Idade: " + idadeAt);
+	}
 }
